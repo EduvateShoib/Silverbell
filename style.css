@@ -1,0 +1,126 @@
+body{
+	background-color: grey;
+	margin: 0;
+}
+
+h1{
+	font-family: arial;
+
+}
+
+.heading1{
+	color:#70fc19; 
+}
+
+.heading2{
+	color: yellow;
+}
+
+#heading3{
+	color: green;
+}
+
+
+p{
+	color: white;
+
+}
+
+
+.table1, td, th{
+	border: 1px solid black;
+	border-collapse : collapse;
+	text-align: center;
+	font-family: arial;
+}
+
+.table1{
+	width: 100%;
+}
+
+th{
+	background-color: #5282eb;
+	color: white;
+}
+
+.Box1{
+	width: 300px;
+	height: 300px;
+	background-color: lightblue;
+}
+
+.innerBox{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	text-align: center;
+}	
+
+.link{
+	color: red;
+	cursor : pointer;
+	text-decoration: underline;
+}
+
+.box-text{
+	color: black;
+}
+
+/*
+=====================================
+CSS for Form 
+=====================================
+*/
+
+.mainDiv{
+	width: 100vw;
+	height: 100vh;
+	background-color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.formDiv{
+	width: 400px;
+	padding: 2rem;
+	background-color: lightgreen;
+	border-radius: 10px;
+}
+
+
+input, button{
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+button{
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
